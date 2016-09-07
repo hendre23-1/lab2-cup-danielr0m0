@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Webpage Title</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-  </head>
-  <body>
-    <p>Hello World!<p>
-  </body>
-</html>
+	<html lang = "en">
+		<head>
+			<meta content="utf-8">
+			<title>Flip Cup</title>
+			<style>
+				body{
+					padding:70px;
+				}
+				#script{
+					adding: 25px;
+					mrgin:5px;
+					bordr-tyle: solid;
+					background-color:#7BA0B6;
+					width: 700px;
+					}
+			</style>
+		</head>
+		<body>
+			<h1>Find the stones</h1>
+				<hr />
+			<h4> This is the board </h4>
+			<div id="script">
+				<table id="myTable" style="padding:70px">
+					<tr>
+						<td onclick="check(this)"><img src="images/cup.png"></td>
+						<td onclick="check(this)"><img src="images/cup.png"> </td>
+						<td onclick="check(this)"><img src="images/cup.png"> </td>
+					</tr>
+					<tr>
+						<td onclick="check(this)"><img src="images/cup.png"> </td>
+						<td onclick="check(this)"><img src="images/cup.png"> </td>
+						<td onclick="check(this)"><img src="images/cup.png"> </td>
+					</tr>
+					<tr>
+						<td onclick="check(this)"><img src="images/cup.png"> </td>
+						<td onclick="check(this)"><img src="images/cup.png"> </td>
+						<td onclick="check(this)"><img src="images/cup.png"> </td>
+					</tr>
+				</table>
+			</div>
+
+			<script src="js/flipCup.js"></script>
+		</body>
+	</html>
