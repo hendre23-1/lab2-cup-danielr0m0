@@ -25,8 +25,10 @@ var stone = [[0,0,0],[0,0,0],[0,0,0]];
 			}
 			if(tries === 3){
 				document.getElementById("script").innerHTML = "<h1> Game Over!! YOU LOSE!!!! </h1>";
+				document.getElementById("script").innerHTML += "<h1 onclick='location.reload()'> click me to play again </h1>";
 			}else if(correct === 3){
 				document.getElementById("script").innerHTML = "<h1> You Win !!  </h1>";
+				document.getElementById("script").innerHTML += "<h1 onclick='location.reload()'> click me to play again </h1>";
 			}
 		}
 
